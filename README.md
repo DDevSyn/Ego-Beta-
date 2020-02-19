@@ -1,2 +1,2 @@
-# Ego-Beta-
+# ego beta
 This bot is in Beta!
