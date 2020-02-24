@@ -1,13 +1,10 @@
-const {RichEmbed} = require('discord.js');
+const {Client, RichEmbed} = require('discord.js');
 const bot = new Client();
 
 const PREFIX = '!';
 
 var version = '1.0.3';
 
-var servers = {};
-
-const usedCommandRecently = new Set();
 
 bot.on("ready", async () =>{
     console.log(`Online.`);
