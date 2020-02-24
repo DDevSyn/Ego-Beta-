@@ -53,7 +53,7 @@ bot.on('message', message => {
             
             
     }
-})
+});
 
     
 let y = process.openStdin()
