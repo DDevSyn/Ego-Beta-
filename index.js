@@ -49,12 +49,13 @@ bot.on('message', message => {
 
             message.author.send(Embed);
         break;
-    }
- 
-   
             
-    });
+            
+            
+    }
+})
 
+    
 let y = process.openStdin()
 y.addListener("data", res => {
     let x = res.toString().trim().split(/ +/g)
