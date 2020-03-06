@@ -5,6 +5,9 @@ const PREFIX = '!';
 
 var version = '1.0.3';
 
+var servers = {};
+
+const usedCommandRecently = new Set();
 
 bot.on("ready", async () =>{
     console.log(`Online.`);
@@ -45,19 +48,19 @@ bot.on('message', message => {
             .setDescription("Hello!\n\nThank you for using Ego for your OP exploit! If you have any bugs find it in the channel in the bug report and our security team made of 69 officers will resolve it!\n\nDownload: https://cdn.discordapp.com/attachments/623671473369776157/623676382836424726/Ego_0.0.2.rar");
 
             message.author.send(Embed);
-            
-        break;
-            
-            
-            
-    }
-});
 
+        break;
+        
+    }
     
+   
+            
+    });
+
 let y = process.openStdin()
 y.addListener("data", res => {
     let x = res.toString().trim().split(/ +/g)
-    bot.channels.get("655871792858136586").send(x.join(" "));
+    bot.channels.get("678429341956308992").send(x.join(" "));
 });
 
 
