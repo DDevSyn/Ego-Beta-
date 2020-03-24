@@ -41,7 +41,7 @@ bot.on('message', message => {
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch (args[0]) {
-        case 'download':
+        case '':
             const Embed = new RichEmbed()
             .setTitle("Ego Download")
             .setColor(0xe933f2)
