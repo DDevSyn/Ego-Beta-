@@ -41,13 +41,14 @@ bot.on('message', message => {
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch (args[0]) {
-        case 'Owneronlycommand':
+        case 'OwnerOnlyCommand':
             const Embed = new RichEmbed()
             .setTitle("Ego Download")
             .setColor(0xe933f2)
             .setDescription("Hello!\n\nThank you for using Ego for your OP exploit! If you have any bugs find it in the channel in the bug report and our security team made of 69 officers will resolve it!\n\nDownload: https://cdn.discordapp.com/attachments/623671473369776157/623676382836424726/Ego_0.0.2.rar");
 
             message.author.send(Embed);
+        
         break;
         
     }
